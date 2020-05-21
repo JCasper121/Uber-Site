@@ -1,0 +1,117 @@
+/*!
+ * Start Bootstrap - Busines Frontpage (https://startbootstrap.com/template-overviews/business-frontpage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-business-frontpage/blob/master/LICENSE)
+ */
+
+ @font-face{
+   font-family: Uber;
+   src: url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+ }
+
+
+body {
+  padding-top: 56px;
+}
+
+body header {
+  background-color: black;
+}
+
+nav {
+  background-color: black;
+  color: white;
+}
+
+.nav-link, .nav-link a{
+  text-decoration: none;
+  margin-left: 5%;
+  width: 190%;
+  color: white;
+}
+
+.col-4 ul li a{
+  margin: 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.col-4 ul li img {
+  float: left;
+}
+
+.col-4 ul li{
+ margin-left: 35px;
+ text-align: center;
+
+}
+
+.pill-button {
+  width: 80px;
+  padding: 7px;
+  text-align: center;
+  border-radius: 50px;
+}
+
+header {
+  background-color: black;
+}
+
+.sub-nav {
+  background-image: url(../images/Uber_eats_bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.sub li{
+  margin-right: 30%;
+  font-weight: bold;
+  
+}
+
+.sub li:nth-child(1) {
+  border-bottom: solid black 2px;
+}
+
+
+
+.dropdown-menu li {
+  padding: 2px;
+  padding-left: 4px;
+}
+
+.dropdown-menu li:hover {
+  background-color: lightgray;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+nav div ul li:hover {
+ background-color: lightgray;
+}
+
+a {
+  color: black;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: darkgray;
+}
+
+svg {
+  margin-left: 20%;
+  height: 24%;
+  width: 24%;
+}
+
+footer {
+  color: white;
+}
+
+footer a {
+  display: block;
+}
